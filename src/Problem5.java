@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CevreAlanHesaplama {
+public class Problem5 {
 
     static void kareCevre(double a) {
         double cevre = 4 * a;

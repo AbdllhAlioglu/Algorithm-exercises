@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KmMilCevirme {
+public class Problem2 {
     static void kmMilCevirme(double a){
         double mil = (a * 0.621);
         System.out.println("Mil Uzunluğu = " + mil + " mil");

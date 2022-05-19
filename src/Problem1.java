@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Islemler {
+public class Problem1 {
 
     public void toplama(int a , int b){
         int sonuc = (a + b) ;
@@ -26,7 +26,7 @@ public class Islemler {
 
         Scanner scn= new Scanner(System.in);
 
-        Islemler islemler = new Islemler();
+        Problem1 problem1 = new Problem1();
 
         while (true){
             System.out.println("Lütfen 1. sayıyı  girin");
@@ -47,13 +47,13 @@ public class Islemler {
 
             switch (islem){
 
-                case (1): islemler.toplama(s1,s2);
+                case (1): problem1.toplama(s1,s2);
                 break;
-                case (2): islemler.cikarma(s1,s2);
+                case (2): problem1.cikarma(s1,s2);
                 break;
-                case (3): islemler.carpma(s1,s2);
+                case (3): problem1.carpma(s1,s2);
                 break;
-                case (4): islemler.bolme(s1,s2);
+                case (4): problem1.bolme(s1,s2);
                 break;
                 case (5):
                 break;

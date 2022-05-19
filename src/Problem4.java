@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IkiSayiKarsilastirma {
+public class Problem4 {
 
     public static void main(String[] args) {
 
