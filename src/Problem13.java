@@ -13,7 +13,7 @@ public class Problem13 {
             A[i] = sayi;
         }
 
-        System.out.println(Arrays.toString(A));
+        System.out.println("A Dizisi : " + Arrays.toString(A));
         System.out.println("***********************************");
         int[] B = new int[10];
         for (int i = 0; i < 10; i++) {
@@ -21,7 +21,7 @@ public class Problem13 {
             int sayi = rnd.nextInt(20);
             B[i] = sayi;
         }
-        System.out.println(Arrays.toString(B));
+        System.out.println("B Dizisi : " +Arrays.toString(B));
         System.out.println("***********************************");
         int[] C = new int[A.length];
 
